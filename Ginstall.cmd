@@ -44,10 +44,10 @@ cd GoombaApps
 echo @echo off>temp.cmd
 echo powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/GoombaStudios/battest/main/GoombaInstallClient.cmd -Outfile GappStore.cmd">>temp.cmd
 echo exit>>temp.cmd
+start temp.cmd
 ping github.com -n 2 >nul
 del temp.cmd
 
 color 2f
 echo Done!
 ping github.com -n 2 >nul
-pause
