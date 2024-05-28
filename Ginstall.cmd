@@ -43,4 +43,5 @@ cd GoombaApps
 powershell -Command "Invoke-WebRequest powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/GoombaStudios/battest/main/GoombaInstallClient.cmd -Outfile links.cmd" -Outfile GappStore.cmd"
 color 2f
 echo Done!
-ping github.com -n 2 >nul                      
+ping github.com -n 2 >nul
+pause
