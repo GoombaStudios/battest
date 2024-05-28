@@ -41,8 +41,7 @@ cd "C:\"
 md GoombaApps
 cd GoombaApps
 
-echo @echo off>temp.cmd
-echo powershell -Command "Invoke-WebRequest powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/GoombaStudios/battest/main/GoombaInstallClient.cmd -Outfile GappStore.cmd">>temp.cmd
+echo powershell -Command "Invoke-WebRequest powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/GoombaStudios/battest/main/GoombaInstallClient.cmd -Outfile GappStore.cmd">temp.cmd
 start temp.cmd
 ping github.com -n 2 >nul
 del temp.cmd
