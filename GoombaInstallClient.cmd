@@ -30,7 +30,6 @@ if %dllink%==0 exit
 if exist %dlname% goto al_inst
 
 cd..
-cd..
 
 md %dlname%
 cd %dlname%
