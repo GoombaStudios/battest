@@ -5,6 +5,7 @@
 echo LOAING...
 md data
 cd data
+title GappStore
 
 del list.txt
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/GoombaStudios/battest/main/AppList.txt -Outfile list.txt"
