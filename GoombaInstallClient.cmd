@@ -8,6 +8,7 @@ cd data
 title GappStore
 
 del list.txt
+del links.cmd
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/GoombaStudios/battest/main/AppList.txt -Outfile list.txt"
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/GoombaStudios/battest/lists/linkcode -Outfile links.cmd"
 call links.cmd
