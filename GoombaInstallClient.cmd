@@ -25,6 +25,9 @@ set dllink=0
 if %dl%==1 set dllink=%opt1%
 if %dl%==1 set dlname=%n1%
 
+if %dl%==2 set dllink=%opt2%
+if %dl%==2 set dlname=%n2%
+
 if %dllink%==0 exit
 
 if exist %dlname% goto al_inst
