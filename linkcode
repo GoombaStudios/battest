@@ -1,2 +1,4 @@
 set opt1=https://raw.githubusercontent.com/GoombaStudios/battest/apps/GamePatch.cmd
 set n1=GamePatch
+set opt2=https://raw.githubusercontent.com/GoombaStudios/battest/apps/GUtil.cmd
+set n2=Goomba's Util
