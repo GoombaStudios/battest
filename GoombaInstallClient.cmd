@@ -58,4 +58,7 @@ echo.
 echo SUCCESS!
 echo.
 pause
+
+cd..
+
 goto home
