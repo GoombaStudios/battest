@@ -118,7 +118,7 @@ echo.	############ . ############
 echo.	############ . ############	
 echo.	############ . ############	
 pause >nul
-exit
+goto exit
 
 :8
 
@@ -139,7 +139,7 @@ echo.	############. ############	%line9%
 echo.	****++++####. ############	%line10%
 echo.		        ****++++##                                                                                                                                        	
 pause >nul
-exit
+goto exit
 
 :7
 color 01
@@ -161,7 +161,7 @@ echo.				%line9%
 echo.				%line10%
 echo.                
 pause >nul
-exit
+goto exit
 
 :vista
 
@@ -185,7 +185,7 @@ echo.					%line9%
 echo.					%line10%
 echo.                
 pause >nul
-exit
+goto exit
 
 :xp
 
@@ -209,7 +209,7 @@ echo.					%line9%
 echo.					%line10%
 echo.                
 pause >nul
-exit
+goto exit
 
 :old
 color 0f
@@ -236,4 +236,7 @@ echo.	 %line8%
 echo.	 %line9%
 echo.	 %line10%
 pause >nul
-exit
+goto exit
+
+:exit
+cmd
