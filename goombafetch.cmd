@@ -239,4 +239,6 @@ pause >nul
 goto exit
 
 :exit
+echo.
+color f
 cmd
